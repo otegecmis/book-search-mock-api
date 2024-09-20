@@ -4,7 +4,7 @@ A simple mock API that provides search functionality for books by ISBN.
 
 ### Installation
 
-Ensure you have Python 3.x and the `pip` package manager installed on your system.
+Ensure you have `Python 3.x` and the `pip` package manager installed on your system.
 
 #### Steps
 
