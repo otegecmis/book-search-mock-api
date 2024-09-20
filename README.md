@@ -30,8 +30,14 @@ $ python3 app.py
 
 Once the server is running, you can search for a book by its ISBN by making a GET request to:
 
+```http
 http://127.0.0.1:5000/books/search/ + ISBN
+```
 
-Replace `ISBN` with the actual ISBN number you want to search for. For example, to search for a book with ISBN `0060935464`, use:
+Replace `ISBN` with the actual ISBN number you want to search for.
 
+For example, to search for a book with ISBN `0060935464`, use:
+
+```http
 http://127.0.0.1:5000/books/search/0060935464
+```
