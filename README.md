@@ -11,32 +11,27 @@ Ensure you have Python 3.x and the `pip` package manager installed on your syste
 1. **Clone the repository**
 
 ```sh
-    git clone https://github.com/otegecmis/book-search-mock-api.git
+$ git clone https://github.com/otegecmis/book-search-mock-api.git
 ```
 
 2. **Navigate to the project directory and install dependencies**
 
 ```sh
-    cd book-search-mock-api
-    pip3 install -r requirements.txt
+$ cd book-search-mock-api && pip3 install -r requirements.txt
 ```
 
 3. **Run the application**
 
 ```sh
-    python3 app.py
+$ python3 app.py
 ```
 
 ### Usage
 
-Once the server is running, you can search for a book by its ISBN using the following endpoint:
+Once the server is running, you can search for a book by its ISBN by making a GET request to:
 
-http://127.0.0.1:5000/books/search/<ISBN>
+http://127.0.0.1:5000/books/search/ + ISBN
 
-Replace `<ISBN>` with the actual ISBN number you want to search for.
-
-#### Example
-
-To search for a book with ISBN `0060935464`, make a GET request to:
+Replace `ISBN` with the actual ISBN number you want to search for. For example, to search for a book with ISBN `0060935464`, use:
 
 http://127.0.0.1:5000/books/search/0060935464
