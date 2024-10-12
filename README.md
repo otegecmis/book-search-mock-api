@@ -20,23 +20,16 @@ git clone https://github.com/otegecmis/book-search-mock-api.git
 cd book-search-mock-api
 ```
 
-3. **Create and activate a virtual environment**
+3. **Run the installation script**
 
 ```sh
-virtualenv env
-. env/bin/activate
+./install.sh
 ```
 
-4. **Install dependencies**
+4. **Run the application**
 
 ```sh
-pip3 install -r requirements.txt
-```
-
-5. **Run the application**
-
-```sh
-python3 app.py
+./run.sh
 ```
 
 ### Usage
