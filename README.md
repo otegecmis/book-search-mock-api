@@ -1,6 +1,6 @@
 ## Book Search Mock API
 
-A simple mock API that provides search functionality for books by ISBN.
+- A simple mock API built with **Python** and **Flask** that provides search functionality for books by ISBN.
 
 ### Installation
 
