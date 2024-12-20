@@ -23,11 +23,11 @@ cd book-search-mock-api
 3. Run the installation script.
 
 ```sh
-./install.sh
+./scripts/install.sh
 ```
 
 4. Run the application.
 
 ```sh
-./run.sh
+./scripts/run.sh
 ```
